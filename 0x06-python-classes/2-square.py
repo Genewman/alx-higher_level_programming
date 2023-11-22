@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-
 """creates class Square with private instance attribute size"""
+
 
 class Square:
     """defines class and
-    instantiates private instance attribute size with validation."""
+instantiates private instance attribute size with validation."""
 
     def __init__(self, size=0):
         if type(size) is not int:
